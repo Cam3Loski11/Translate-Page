@@ -1,0 +1,16 @@
+body {
+    height: auto;
+}
+main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+header {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    padding-top: 14px;
+}
+.container {
+    margin-bottom: 20px;
+}
