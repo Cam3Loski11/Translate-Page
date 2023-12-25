@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/tablet_and_cel.css" media="(max-width: 750px)">
+    <title>Translate Web</title>
+    <link rel="icon" href="./assets/idiomas.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Traductor hecho por mi🦣</h1>
+    </header>
+    <div class="container">
+        <main>
+            <section class="text-to-translate-container">
+                <div>
+    
+                    <label class="language-label">
+                        <input type="checkbox" name="language" value="es" class="flag-checkbox">
+                        <img src="./assets/espana.png" alt="bandera de espana" class="flag-icon">
+                    </label>
+    
+                    <label class="language-label">
+                        <input type="checkbox" name="language" value="en" class="flag-checkbox">
+                        <img src="./assets/reino-unido.png" alt="bandera de inglaterra" class="flag-icon">
+                    </label>
+    
+                    <label class="language-label">
+                        <input type="checkbox" name="language" value="pt" class="flag-checkbox">
+                        <img src="./assets/portugal.png" alt="bandera de portugal" class="flag-icon">
+                    </label>
+    
+                </div>
+                <div class="text-box-container">
+                    <textarea class="text-box" id="textToTranslate" placeholder="Texto a traducir"></textarea>
+                    <button class="submit-button">Traducir</button>
+                </div>
+            </section>
+            <section class="text-translated-container">
+                <div>
+    
+                    <label class="language-label-result">
+                        <input type="checkbox" name="language" value="es" class="flag-result">
+                        <img src="./assets/espana.png" alt="bandera de espana" class="flag-icon-result">
+                    </label>
+    
+                    <label class="language-label-result">
+                        <input type="checkbox" name="language" value="en" class="flag-result">
+                        <img src="./assets/reino-unido.png" alt="bandera de inglaterra" class="flag-icon-result">
+                    </label>
+    
+                    <label class="language-label-result">
+                        <input type="checkbox" name="language" value="pt" class="flag-result">
+                        <img src="./assets/portugal.png" alt="bandera de portugal" class="flag-icon-result">
+                    </label>
+    
+                </div>
+                <div class="result-box-container">
+                    <p class="text-space">Texto traducido</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
